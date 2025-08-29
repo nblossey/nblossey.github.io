@@ -1,53 +1,41 @@
 ---
-# leave this front matter so Jekyll compiles SCSS
 ---
 
 @import "{{ site.theme }}";
 
-/* ===== Your overrides below ===== */
+/* ===== Custom overrides ===== */
 
-/* Widen the main column (Minimal theme uses .wrapper) */
-.wrapper {
-  max-width: 980px;    /* default ~740px */
-  padding: 0 1.25rem;
+/* Hide the theme’s title bar */
+header.site-header {
+  display: none !important;
 }
 
-/* Smaller, denser text */
+/* Make content use the full width instead of two columns */
+.wrapper {
+  max-width: 900px;   /* wider than default */
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: block !important; /* remove sidebar effect */
+}
+
+/* Typography tweaks */
 body {
-  font-size: 15px;     /* try 14px if you want even denser */
+  font-size: 15px;
   line-height: 1.65;
 }
 
-/* Tighter section spacing */
+/* Headings */
 h1, h2, h3 {
   font-weight: 600;
   margin-top: 1.6rem;
   margin-bottom: 0.6rem;
 }
 
-/* Nicer details/summary (collapsible abstracts) */
+/* Details/summary styling */
 details {
   margin: 0.35rem 0 1rem;
 }
 details summary {
   cursor: pointer;
   font-weight: 600;
-  list-style: none;  /* remove default triangle in some browsers */
-}
-details[open] summary {
-  opacity: 0.9;
-}
-
-/* Subtle link styling */
-a {
-  text-decoration: none;
-  border-bottom: 1px solid rgba(0,0,0,.15);
-}
-a:hover {
-  border-bottom-color: rgba(0,0,0,.4);
-}
-
-/* Optional: soften the page title if your Markdown starts with # Nils Blossey */
-h1:first-child {
-  margin-bottom: .75rem;
 }
