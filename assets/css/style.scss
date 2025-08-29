@@ -14,6 +14,11 @@
   display: block !important; /* force single column */
 }
 
+/* Hide the "View My GitHub Profile" link */
+header.site-header a[href*="github.com"] {
+  display: none !important;
+}
+
 /* Style the site header (name + description block) */
 /* Align header with main content */
 header.site-header {
