@@ -1,12 +1,5 @@
 <link rel="stylesheet" href="/assets/css/style.css">
 
-# Nils Blossey
-
-Doctoral Researcher in Political Science, University of Cologne  
-[Email](mailto:blossey@wiso.uni-koeln.de) · [Curriculum Vitae](/cv.pdf) · [Google Scholar](https://scholar.google.de/citations?user=2_n5Lp4AAAAJ&hl=de&oi=ao) · [Bluesky](https://bsky.app/profile/nilsblossey.bsky.social) · [X](https://x.com/blossey_nils) 
-
----
-
 I am a Doctoral Researcher in Political Science at the University of Cologne. I study (historical) political economy with a focus on voting behavior, redistribution, and fiscal policy.
 
 ---
