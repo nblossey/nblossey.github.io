@@ -5,6 +5,10 @@ Doctoral Researcher in Political Science, University of Cologne
 
 ---
 
+I am a Doctoral Researcher in Political Science at the University of Cologne. I study (historical) political economy with a focus on voting behavior, redistribution, and fiscal policy.
+
+---
+
 ## Publications
 
 ### Austerity and Social Spending: Estimating the Long-Run Effects of Fiscal Adjustment  
