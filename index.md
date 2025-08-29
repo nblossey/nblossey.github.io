@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="/assets/css/style.css">
 
-I am a Doctoral Researcher in Political Science at the University of Cologne. I study (historical) political economy with a focus on voting behavior, redistribution, and fiscal policy.
+
+Welcome! I am a Doctoral Researcher in Political Science at the University of Cologne. I study (historical) political economy with a focus on voting behavior, redistribution, and fiscal policy.
 
 ---
 
