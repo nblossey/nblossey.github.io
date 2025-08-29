@@ -19,6 +19,10 @@ header.site-header a[href^="https://github.com/"] {
   display: none !important;
 }
 
+header.site-header small {
+  display: none !important;
+}
+
 /* Style the site header (name + description block) */
 /* Align header with main content */
 header.site-header {
