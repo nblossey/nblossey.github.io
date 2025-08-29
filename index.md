@@ -1,7 +1,7 @@
 # Nils Blossey
 
 Doctoral Researcher in Political Science, University of Cologne  
-[Email](mailto:blossey@wiso.uni-koeln.de) · [Curriculum Vitae](/assets/cv.pdf) · [Google Scholar](https://scholar.google.de/citations?user=2_n5Lp4AAAAJ&hl=de&oi=ao)
+[Email](mailto:blossey@wiso.uni-koeln.de) · [Curriculum Vitae](/cv.pdf) · [Google Scholar](https://scholar.google.de/citations?user=2_n5Lp4AAAAJ&hl=de&oi=ao) · [Bluesky](https://bsky.app/profile/nilsblossey.bsky.social) · [X](https://x.com/blossey_nils) 
 
 ---
 
