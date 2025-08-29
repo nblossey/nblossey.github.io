@@ -14,8 +14,8 @@
   display: block !important; /* force single column */
 }
 
-/* Hide the "View My GitHub Profile" link */
-header.site-header a[href*="github.com"] {
+/* Hide the "View My GitHub Profile" link in Minimal theme */
+header.site-header a[href^="https://github.com/"] {
   display: none !important;
 }
 
