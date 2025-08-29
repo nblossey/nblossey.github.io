@@ -6,6 +6,11 @@
 
 /* ===== Custom overrides ===== */
 
+/* Hide the GitHub profile link that Minimal theme inserts */
+header.site-header a.view {
+  display: none !important;
+}
+
 /* Use a single centered column instead of two */
 .wrapper {
   max-width: 900px;   /* wider than default (~740px) */
