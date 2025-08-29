@@ -15,6 +15,7 @@
 }
 
 /* Style the site header (name + description block) */
+/* Align header with main content */
 header.site-header {
   text-align: left;
   margin-bottom: 2rem;
@@ -26,13 +27,16 @@ header.site-header h1 {
   font-size: 22px;
   margin-bottom: 0.25rem;
   font-weight: 600;
+  margin-left: 0; /* align flush left */
 }
 
 header.site-header p {
   font-size: 14px;
   line-height: 1.4;
   margin: 0.25rem 0;
+  margin-left: 0; /* align flush left */
 }
+
 
 /* Typography tweaks */
 body {
