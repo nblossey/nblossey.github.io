@@ -1,5 +1,7 @@
 title: "Nils Blossey"
-theme: jekyll-theme-minimal
+remote_theme: orderedlist/minimal
+plugins:
+  - jekyll-remote-theme
 description: >
   Doctoral Researcher in Political Science, University of Cologne <br>
   <a href="mailto:blossey@wiso.uni-koeln.de">Email</a><br>
