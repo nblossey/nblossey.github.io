@@ -50,29 +50,43 @@ header.site-header p {
   margin-left: 0;
 }
 
-/* ===== FONT & COLOR (NEW) ===== */
-body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: #000000;
+/* ===== FORCE FONT & COLOR ===== */
+html body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+  color: #000000 !important;
   font-size: 15px;
   line-height: 1.65;
 }
 
-/* ===== LINKS (NEW) ===== */
-a {
-  color: #0b3d91;
-  text-decoration: none;
+/* Force all text containers to be black/Arial */
+body p,
+body li,
+body section,
+body header,
+body div,
+body span {
+  color: #000000 !important;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
 }
 
-a:hover {
-  color: #06275e;
-  text-decoration: underline;
+/* ===== FORCE LINKS ===== */
+html body a {
+  color: #0b3d91 !important;       /* dark blue */
+  text-decoration: none !important;
 }
 
-/* ===== HEADINGS (NEW) ===== */
-h1, h2, h3, h4 {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: #000000;
+html body a:hover {
+  color: #06275e !important;
+  text-decoration: underline !important;
+}
+
+/* ===== FORCE HEADINGS ===== */
+html body h1,
+html body h2,
+html body h3,
+html body h4 {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+  color: #000000 !important;
   font-weight: 600;
   margin-top: 1.5rem;
   margin-bottom: 0.6rem;
@@ -87,3 +101,4 @@ details summary {
   cursor: pointer;
   font-weight: 600;
 }
+
