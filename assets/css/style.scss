@@ -13,13 +13,13 @@ header.site-header a.view {
 
 /* Use a single centered column instead of two */
 .wrapper {
-  max-width: 900px;   /* wider than default (~740px) */
+  max-width: 900px;
   margin: 2rem auto;
   padding: 0 1rem;
-  display: block !important; /* force single column */
+  display: block !important;
 }
 
-/* Hide the "View My GitHub Profile" link in Minimal theme */
+/* Hide the "View My GitHub Profile" link */
 header.site-header a[href^="https://github.com/"] {
   display: none !important;
 }
@@ -28,7 +28,6 @@ header.site-header small {
   display: none !important;
 }
 
-/* Style the site header (name + description block) */
 /* Align header with main content */
 header.site-header {
   text-align: left;
@@ -41,25 +40,39 @@ header.site-header h1 {
   font-size: 22px;
   margin-bottom: 0.25rem;
   font-weight: 600;
-  margin-left: 0; /* align flush left */
+  margin-left: 0;
 }
 
 header.site-header p {
   font-size: 14px;
   line-height: 1.4;
   margin: 0.25rem 0;
-  margin-left: 0; /* align flush left */
+  margin-left: 0;
 }
 
-
-/* Typography tweaks */
+/* ===== FONT & COLOR (NEW) ===== */
 body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #000000;
   font-size: 15px;
   line-height: 1.65;
 }
 
-/* Headings */
-h1, h2, h3 {
+/* ===== LINKS (NEW) ===== */
+a {
+  color: #0b3d91;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #06275e;
+  text-decoration: underline;
+}
+
+/* ===== HEADINGS (NEW) ===== */
+h1, h2, h3, h4 {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #000000;
   font-weight: 600;
   margin-top: 1.5rem;
   margin-bottom: 0.6rem;
@@ -69,6 +82,7 @@ h1, h2, h3 {
 details {
   margin: 0.35rem 0 1rem;
 }
+
 details summary {
   cursor: pointer;
   font-weight: 600;
