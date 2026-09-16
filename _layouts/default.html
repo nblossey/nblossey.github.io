@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#173f43">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="site-shell">
+      <aside class="profile" aria-label="Profile">
+        <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} — home">
+          <span class="wordmark__name">{{ site.author.name }}</span>
+        </a>
+
+        <div class="profile__details">
+          <p class="profile__role">{{ site.author.role }}</p>
+          <p class="profile__affiliation">{{ site.author.affiliation }}</p>
+        </div>
+
+        <nav class="profile__nav" aria-label="Page navigation">
+          <a href="#publications">Publications</a>
+          <a href="#projects">Projects</a>
+        </nav>
+
+        <div class="profile__links" aria-label="External links">
+          <a href="mailto:{{ site.author.email }}">Email</a>
+          <a href="{{ site.links.cv | relative_url }}">Curriculum Vitae</a>
+          <a href="{{ site.links.scholar }}" rel="me">Google Scholar</a>
+          <a href="{{ site.links.bluesky }}" rel="me">Bluesky</a>
+          <a href="{{ site.links.x }}" rel="me">X</a>
+        </div>
+      </aside>
+
+      <main id="main-content" class="content">
+        {{ content }}
+      </main>
+    </div>
+  </body>
+</html>
