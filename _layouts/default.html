@@ -5,6 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#173f43">
     {% seo %}
+    {% if page.url == '/' %}
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "{{ site.url }}/#person",
+          "name": {{ site.author.name | jsonify }},
+          "url": {{ site.author.url | jsonify }},
+          "jobTitle": {{ site.author.role | jsonify }},
+          "affiliation": {
+            "@type": "Organization",
+            "name": {{ site.author.affiliation | jsonify }},
+            "url": "https://www.uni-koeln.de/"
+          },
+          "sameAs": [
+            {{ site.links.university | jsonify }},
+            {{ site.links.orcid | jsonify }},
+            {{ site.links.scholar | jsonify }},
+            {{ site.links.bluesky | jsonify }},
+            {{ site.links.x | jsonify }}
+          ]
+        }
+      </script>
+    {% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body>
@@ -13,7 +37,7 @@
     <div class="site-shell">
       <aside class="profile" aria-label="Profile">
         <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} — home">
-          <span class="wordmark__name">{{ site.author.name }}</span>
+          <h1 class="wordmark__name">{{ site.author.name }}</h1>
         </a>
 
         <div class="profile__details">
@@ -29,6 +53,8 @@
         <div class="profile__links" aria-label="External links">
           <a href="mailto:{{ site.author.email }}">Email</a>
           <a href="{{ site.links.cv | relative_url }}">Curriculum Vitae</a>
+          <a href="{{ site.links.university }}" rel="me">University profile</a>
+          <a href="{{ site.links.orcid }}" rel="me">ORCID</a>
           <a href="{{ site.links.scholar }}" rel="me">Google Scholar</a>
           <a href="{{ site.links.bluesky }}" rel="me">Bluesky</a>
           <a href="{{ site.links.x }}" rel="me">X</a>
