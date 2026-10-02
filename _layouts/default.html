@@ -20,7 +20,6 @@
             "url": "https://www.uni-koeln.de/"
           },
           "sameAs": [
-            {{ site.links.university | jsonify }},
             {{ site.links.orcid | jsonify }},
             {{ site.links.scholar | jsonify }},
             {{ site.links.bluesky | jsonify }},
@@ -53,7 +52,6 @@
         <div class="profile__links" aria-label="External links">
           <a href="mailto:{{ site.author.email }}">Email</a>
           <a href="{{ site.links.cv | relative_url }}">Curriculum Vitae</a>
-          <a href="{{ site.links.university }}" rel="me">University profile</a>
           <a href="{{ site.links.orcid }}" rel="me">ORCID</a>
           <a href="{{ site.links.scholar }}" rel="me">Google Scholar</a>
           <a href="{{ site.links.bluesky }}" rel="me">Bluesky</a>
