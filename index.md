@@ -17,17 +17,18 @@ Welcome! I am a Ph.D. candidate in Political Science at the University of Cologn
 Ageing populations and slower growth have compelled governments in mature welfare states to implement fiscal adjustments, but uncertainty persists about whether these measures have successfully curtailed the size of the welfare state. This letter documents that fiscal adjustments reduce social spending more effectively than previously thought. Using data from sixteen advanced economies between 1978 and 2018 and the narrative identification of adjustment plans, I estimate cumulative multipliers with local projections. I find that fiscal adjustments persistently lower social spending, including key components of social consumption and social investment. To explain why austerity does not shelter the welfare state, I present stylized facts about the timing and composition of adjustment plans. First, while public investment cuts concentrate at the beginning of the adjustment period, social consumption cuts accumulate over time. Second, large budget deficits and financial crises are frequent antecedents of the most ambitious fiscal reforms.
 </details>
 
----
-
-## Projects
-
 ### From Wealth to Welfare: How Economic Elites Made Inequality Work
-*Accepted at Comparative Political Studies*<br>
-[📄 Paper](https://www.dropbox.com/scl/fi/2gjgjfquhaoq59getmtur/From-Wealth-to-Welfare.pdf?rlkey=s8exknty2y8116hphnexoprwr&st=1rkdwb1a&dl=0)
+*Nils Blossey*<br>
+*Comparative Political Studies*<br>
+[Published Article](https://journals.sagepub.com/eprint/X6YREN87JCD4QMYT5VSB/full) · [📄 Working Paper](https://www.dropbox.com/scl/fi/2gjgjfquhaoq59getmtur/From-Wealth-to-Welfare.pdf?rlkey=s8exknty2y8116hphnexoprwr&st=1rkdwb1a&dl=0)
 <details>
 <summary>Abstract</summary>
 Why do advanced economies engage in substantial income transfers but scarcely redistribute wealth? This paper argues that wealth inequality historically led economic elites to expand income transfers to propertyless households to stabilize the unequal property order. I study this proposition in the context of landholding inequality in Prussia. Estate owners, I argue, used income transfers to offset the economic insecurities of landless workers who could not rely on landownership as insurance against income loss. I digitize surveys of local poor relief and exploit Prussia's administrative structure, where estates functioned as independent local authorities. The results show that landholding inequality caused higher income transfers to the poor, driven by the redistributive actions of estate owners. Estate owners allocated relief as social protection over the life cycle for households outside of the active workforce. This commitment to insurance was associated with greater voter support for the conservative parties representing estate owners' interests.
 </details>
+
+---
+
+## Projects
 
 ### Coal Rush: The Built Legacy of the Industrial Revolution and the Rise of the Radical Right  
 *with [Lukas Haffert](https://lukashaffert.com/), [Lukas F. Stoetzer](https://www.uni-wh.de/ansprechpartner/lukas-stoetzer)*<br>
@@ -40,7 +41,8 @@ Historical industrial centers have shifted to the right but have done so at diff
 </details>
 
 ### Not in My Basement: The Political Costs of Climate Reforms  
-*with [Michael M. Bechtel](http://mbechtel.com/), [Paul Michel](https://paulmichel0.github.io/)*
+*with [Michael M. Bechtel](http://mbechtel.com/), [Paul Michel](https://paulmichel0.github.io/)*<br>
+*Under Review*<br>
 [📄 Working Paper](https://www.econtribute.de/RePEc/ajk/ajkdps/ECONtribute_427_2026.pdf)
 <details>
 <summary>Abstract</summary>
