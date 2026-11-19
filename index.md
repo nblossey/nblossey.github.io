@@ -8,15 +8,6 @@ Welcome! I am a Ph.D. candidate in Political Science at the University of Cologn
 
 ## Publications
 
-### Austerity and Social Spending: Estimating the Long-Run Effects of Fiscal Adjustment  
-*Nils Blossey*  
-*British Journal of Political Science, 2025; 55:e107.*  
-[doi:10.1017/S0007123425000018](https://doi.org/10.1017/S0007123425000018)
-<details>
-<summary>Abstract</summary>
-Ageing populations and slower growth have compelled governments in mature welfare states to implement fiscal adjustments, but uncertainty persists about whether these measures have successfully curtailed the size of the welfare state. This letter documents that fiscal adjustments reduce social spending more effectively than previously thought. Using data from sixteen advanced economies between 1978 and 2018 and the narrative identification of adjustment plans, I estimate cumulative multipliers with local projections. I find that fiscal adjustments persistently lower social spending, including key components of social consumption and social investment. To explain why austerity does not shelter the welfare state, I present stylized facts about the timing and composition of adjustment plans. First, while public investment cuts concentrate at the beginning of the adjustment period, social consumption cuts accumulate over time. Second, large budget deficits and financial crises are frequent antecedents of the most ambitious fiscal reforms.
-</details>
-
 ### From Wealth to Welfare: How Economic Elites Made Inequality Work
 *Nils Blossey*<br>
 *Comparative Political Studies*<br>
@@ -24,6 +15,15 @@ Ageing populations and slower growth have compelled governments in mature welfar
 <details>
 <summary>Abstract</summary>
 Why do advanced economies engage in substantial income transfers but scarcely redistribute wealth? This paper argues that wealth inequality historically led economic elites to expand income transfers to propertyless households to stabilize the unequal property order. I study this proposition in the context of landholding inequality in Prussia. Estate owners, I argue, used income transfers to offset the economic insecurities of landless workers who could not rely on landownership as insurance against income loss. I digitize surveys of local poor relief and exploit Prussia's administrative structure, where estates functioned as independent local authorities. The results show that landholding inequality caused higher income transfers to the poor, driven by the redistributive actions of estate owners. Estate owners allocated relief as social protection over the life cycle for households outside of the active workforce. This commitment to insurance was associated with greater voter support for the conservative parties representing estate owners' interests.
+</details>
+
+### Austerity and Social Spending: Estimating the Long-Run Effects of Fiscal Adjustment  
+*Nils Blossey*  
+*British Journal of Political Science, 2025; 55:e107.*  
+[doi:10.1017/S0007123425000018](https://doi.org/10.1017/S0007123425000018)
+<details>
+<summary>Abstract</summary>
+Ageing populations and slower growth have compelled governments in mature welfare states to implement fiscal adjustments, but uncertainty persists about whether these measures have successfully curtailed the size of the welfare state. This letter documents that fiscal adjustments reduce social spending more effectively than previously thought. Using data from sixteen advanced economies between 1978 and 2018 and the narrative identification of adjustment plans, I estimate cumulative multipliers with local projections. I find that fiscal adjustments persistently lower social spending, including key components of social consumption and social investment. To explain why austerity does not shelter the welfare state, I present stylized facts about the timing and composition of adjustment plans. First, while public investment cuts concentrate at the beginning of the adjustment period, social consumption cuts accumulate over time. Second, large budget deficits and financial crises are frequent antecedents of the most ambitious fiscal reforms.
 </details>
 
 ---
